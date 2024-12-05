@@ -6,6 +6,8 @@ const Card = ({ pict, name, email, review }) => {
     <div
       className="border rounded-sm px-6 py-4"
       style={{
+        width: "287px",
+        height: "160px",
         backgroundColor: "var(--foreground)",
         border: "1px solid hsla(260, 93%, 17%, 1)",
       }}
